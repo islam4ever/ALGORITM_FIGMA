@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+  font-family: Algoritm;
+  src: url(./assets/fonts/Inter-Light.otf);
+}
+
+@font-face {
+  font-family: Nohemi;
+  src: url(./assets/fonts/Nohemi-SemiBold-BF6438cc57db2ff.woff);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / (1280 / 10));
+}
+
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav_links button {
+  font-family: Algoritm;
+  font-size: 1.6rem;
+  text-decoration: none;
+  background-color: transparent;
+  margin-left: 3rem;
+  border: none;
+  color: #FFFFFF80;
+}
+
+
+.number{
+    margin-right: 3rem;
+}
+
+.active{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1rem;
+    color: #000000 !important;
+    background-color: #F8D800 !important;
+}
+
+.left_side_header{
+  background-color: #FFFFFF1A;
+  width: 57.1rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.header_title{
+  font-size: 3.6rem;
+  color: #FFFFFF;
+  font-family: Nohemi;
+  max-width: 55rem;
+  transform: translateY(3rem);
+  margin-left: 4rem;
+}
+
+.header_desc{
+  font-family: Algoritm;
+  color: #FFFFFFB2;
+  max-width: 45rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
+
+.header_title span{
+  border-bottom: 0.2rem solid #F8D800;
+  border-radius: 0.7rem;
+}
+
+.left_side_inside_con{
+  display: flex;
+}
+
+.headers_con{
+  display: flex;
+  gap: 1rem;
+  margin-top: 10rem;
+  
+}
+
+.first_header{
+  width: 4.5rem;
+  height: 0.4rem;
+  background-color: #FFE000;
+  border-radius: 1rem;
+  margin-left: 4rem;
+}
+
+.second_header, .third_header, .fourth_header{
+  background-color: #FEFFE780;
+  width: 4.5rem;
+  height: 0.4rem;
+  border-radius: 1rem;
+}
+
+.wasd_pic{
+  width: 12.7rem;
+  height: 12.7rem;
+  margin-left: 15rem;
+}
+
+.two_top_headers{
+  display: flex;
+}
+
+.right_side_header{
+  background-image: url(./assets/imgs/Subtract.png);
+  background-repeat: no-repeat;
+  background-position:0 50%;
+  background-size: cover;
+  margin-top: 2rem;
+  width: 54.9rem;
+  height: 31.7rem;
+  margin-left: 5rem;
+}
+
+.free_consulting{
+  color: #F8D800;
+  font-size: 3.6rem;
+  font-family: Nohemi;
+  margin-top: 7rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.consulting_desc{
+  font-family: Algoritm;
+  font-size: 1.2rem;
+  color: #FFFFFFB2;
+  max-width: 42rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.agree{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transform: translateY(3rem) translateX(2rem);
+}
+
+.agree_or_disagree{
+  width: 2rem;
+  height: 2rem;
+}
+
+.agree_or_disagree_text{
+  font-family: Algoritm;
+  font-size: 1.2rem;
+  color: #FFFFFFB2;
+}
+
+
+.agree_or_disagree_text span{
+  border-bottom: 0.2rem solid #FFFFFFB2;
+}
+
+.name{
+  width: 42.1rem;
+  height: 5.9rem;
+  background-color: transparent;
+  border: 0.1rem solid #DEC400;
+  border-radius: 1rem;
+  text-indent: 1rem;
+  color: #FFFFFFB2;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.name::placeholder{
+  color: #FFFFFFB2;
+  font-size: 2rem;
+  font-family: Algoritm;
+}
+
+
+.number1{
+  width: 26.4rem;
+  height: 5.9rem;
+  background-color: transparent;
+  border: none;
+  background-color: #FFFFFF0D;
+  outline: none;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: #FFFFFFB2;
+  font-size: 2rem;
+  text-indent: 1rem;
+}
+
+
+.yuborish{
+  background-color: #F8D800;
+  width: 14.5rem;
+  height: 5.9rem;
+  border-radius: 1rem;
+  color: #000000;
+  font-family: Algoritm;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+
+.first_sec_desc{
+  color: #FFFFFF;
+  font-size: 3.6rem;
+  font-family: Nohemi;
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
+
+.first_sec_desc span{
+  color: #F8D800;
+}
+
+.stats_con{
+  display: flex;
+}
+
+.first_stats{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/imgs/background.svg);
+  background-repeat: no-repeat;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.first_stats h1{
+  color: #FFFFFF;
+  font-family: Nohemi;
+  font-size: 3.6rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.first_stats h2{
+  color: #FFFFFFB2;
+  font-family: Nohemi;
+  font-size: 1.6rem;
+  max-width: 25rem;
+  margin-left: 2rem;
+}
+
+
+.award{
+  width: 10rem;
+  height: 12rem;
+  margin-left: 12rem;
+  margin-bottom: 10rem;
+}
+
+.second_stats{
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/imgs/Rectangle\ 28.svg);
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.second_stats h1{
+  color: #FFFFFF;
+  font-family: Nohemi;
+  font-size: 3.6rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  /* width: 28.4rem;
+  height: 29.8rem; */
+}
+
+.second_stats h2{
+  color: #FFFFFFB2;
+  font-family: Nohemi;
+  font-size: 1.2rem;
+  max-width: 25rem;
+  margin-left: 2rem;
+
+}
+
+
+.person_and_attention{
+  width: 21.5rem;
+  height: 18.3rem;
+  margin-right: 4rem;
+  margin-left: 5rem;
+}
+
+
+.third_stats{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-image: url(./assets/imgs/Subtraback.svg);
+  background-repeat: no-repeat;
+}
+
+.third_desc{
+  color: #FFFFFF;
+  font-family: Nohemi;
+  max-width: 40rem;
+  font-size: 2.5rem;
+
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.third_desc span{
+  color: #F8D800;
+}
+
+.two_sided_stats{
+  display: flex;
+}
+
+.coding{
+  display: flex;
+  gap: 2rem;
+}
+
+.design{
+  display: flex;
+  gap: 8rem;
+}
+
+.first_type{
+  color: #FFFFFF80;
+  font-size: 2.5rem;
+  font-family: Nohemi;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.second_type{
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-family: Nohemi;
+  margin-top: 1rem;
+}
+
+.design_pic{
+  width: 21rem;
+  height: 21rem;
+  margin-top: -1.8rem;
+}
+
+.last_desc{
+  color: #FFFFFFB2;
+  font-family: Algoritm;
+  font-size: 1.2rem;
+  max-width: 25rem;
+  margin-top: -8rem;
+  margin-left: 4rem;
+}
