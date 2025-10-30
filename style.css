@@ -813,6 +813,377 @@ body {
 }
 
 
+.mentors_desc{
+  font-family: Nohemi;
+  font-size: 3.6rem;
+  color: #FFFFFF;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.first_creator{
+  display: flex;
+  align-items: center;
+  margin-top: -2rem;
+  margin-left: 3rem;
+}
+
+.pfp{
+  width: 16.2rem;
+  height: 16.7rem;
+}
+
+.texts_first_con {
+  position: relative;
+  background-image: url(./assets/imgs/Subtract\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 41.9rem;
+  height: 13.7rem;
+  margin-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: -0.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* .texts_first_con{
+  background-image: url(./assets/imgs/Subtract\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 41.9rem;
+  height: 13.7rem;
+  margin-top: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: -0.5rem;
+} */
+
+.texts_first_con h1{
+  color: #FFFFFF;
+  font-size: 3rem;
+  max-width: 25rem;
+  font-family: Nohemi;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+.texts_first_con h2{
+  color: #FFFFFFB2;
+  font-family: Algoritm;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.expierence_jalilov{
+  font-size: 1.2rem !important;
+  margin-top: -4rem;
+}
+
+.desc_jalilov{
+  font-size: 1rem !important;
+}
+
+
+.creators_con{
+  display: flex;
+}
+/* 
+.texts_first_con::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  border-radius: inherit;
+}
+
+.texts_first_con:hover::after {
+  background-color: rgba(248, 216, 0, 0.4); /* sariq rang shaffof */
+/* } */
+
+/* matnlarni yuqorida ushlab turish */
+.texts_first_con * {
+  position: relative;
+  z-index: 1;
+}
+
+.texts_first_con:hover {
+  filter: brightness(0) saturate(100%) invert(89%) sepia(87%) saturate(829%) hue-rotate(1deg) brightness(103%) contrast(101%);
+} */
+
+
+
+/* sariq overlay */
+.texts_first_con::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  border-radius: inherit;
+  z-index: 0;
+}
+
+/* hover holati – sariq rang chiqadi */
+.texts_first_con:hover::after {
+  background-color: #F8D800;
+}
+
+/* matnlarni ustida qoldiramiz */
+.texts_first_con * {
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+/* hover bo‘lganda matn rangi qora bo‘lsin */
+.texts_first_con:hover h1,
+.texts_first_con:hover h2 {
+  color: #000;
+}
+
+.map{
+  width: 56.1rem;
+  height: 35.8rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  border-radius: 3rem;
+}
+
+.first_location, .second_location{
+  width: 56.1rem;
+  height: 17.2rem;
+  background-color: #FFFFFF1A;
+  margin-top: 1rem;
+  border-radius: 1.6rem;
+  margin-left: 2rem;
+}
+
+.first_location{
+  margin-top: 2rem;
+}
+
+.location{
+  display: flex;
+}
+
+
+.location_desc{
+  font-family: Nohemi;
+  font-size: 3.6rem;
+  color: #FFFFFF;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+._location_spe_first{
+  font-family: Nohemi;
+  font-size: 2.4rem;
+  color: #FFFFFF;
+  max-width: 45rem;
+  margin-left: 3rem;
+  transform: translateY(2rem);
+}
+
+.desc_first_location{
+  display: flex;
+}
+
+.moljal, .time, .phone{
+  color: #FFFFFF80;
+  font-size: 1.6rem;
+  font-family: Algoritm;
+  margin-top: 3rem;
+
+}
+
+.moljal, .moljal_desc{
+  margin-left: 4rem;
+}
+
+.time, .time_desc{
+  margin-right: 2rem;
+}
+
+.moljal_desc, .time_desc, .phone_desc{
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-family: Algoritm;
+}
+
+
+.moljal_desc{
+  max-width: 25rem !important;
+}
+
+
+.free_con{
+  width: 95%;
+  height: 21.7rem;
+  background-image: url(./assets/imgs/Subtract\ \(2\).png);
+  background-repeat: no-repeat;
+  margin-left: 15rem;
+  margin-top: 4rem;
+}
+
+.bepul_konsultatsiya{
+  color: #F8D800;
+  font-family: Nohemi;
+  font-size: 3.6rem;
+  transform: translateY(1rem);
+  margin-left: 2rem;
+}
+
+.konsultatsiya_desc{
+  color: #FFFFFFB2;
+  font-family: Algoritm;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.formal{
+  display: flex;
+}
+
+.agree_or_nah{
+  display: flex;
+}
+
+.formal form{
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  gap: 2rem;
+}
+
+.name11{
+  background-color: transparent;
+  border: 0.1rem solid #DEC400;
+  width: 26.2rem;
+  height: 5.9rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  text-indent: 1rem;
+  color: #FFFFFFB2;
+}
+
+.number11{
+  background-color: #FFFFFF0D;
+  width: 26.4rem;
+  height: 5.9rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #FFFFFFB2;
+  border: none;
+  outline: none;
+  text-indent: 1rem;
+}
+
+.apply_for{
+  background-color: #F8D800;
+  color: #000000;
+  font-size: 1.6rem;
+  font-family: Algoritm;
+  border-radius: 1rem;
+  width: 22.3rem;
+  height: 5.9rem;
+}
+
+.agree_desc span{
+  text-decoration: underline;
+}
+
+
+.agree11{
+  /* margin-top: rem; */
+  margin-left: -1.5rem;
+}
+
+.agree_desc{
+  color: #FFFFFFB2;
+  font-family: Algoritm;
+  font-size: 1rem;
+  max-width: 13rem;
+  margin-top: 1.4rem;
+}
+
+.last_div_perform{
+  background-color: #FFFFFF1A;
+  width: 90%;
+  margin-left: 3rem;
+  height: 44rem;
+  border-radius: 1rem;
+}
+
+.top_last_div{
+  display: flex;
+}
+
+
+.top_last_div h1{
+  font-family: Nohemi;
+  font-size: 6.4rem;
+  color: #FFFFFF;
+  max-width: 85rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+
+.img_back{
+  background-image: url(./assets/imgs/Subtract\ \(3\).png);
+  width: 7.2rem;
+  height: 7.2rem;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+
+.img_back img{
+  width: 1.8rem;
+  height: 3.3rem;
+  margin-top: -1rem;
+  margin-left: -1rem;
+}
+
+.top_last_div h1>span{
+  border-bottom: 0.3rem solid #F8D800;
+}
+
+
+.bottom_last_div{
+  display: flex;
+}
+
+.bottom_last_div h1{
+  color: #FFFFFFB2;
+  font-size: 4rem;
+  font-family: Algoritm;
+  max-width: 80rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.wasd_picture{
+  width: 20.3rem;
+  height: 20.3rem;
+  margin-left: 6rem;
+  margin-top: 6rem;
+}
+
+
+
+
 @media only screen and (max-width: 430px) {
   .two_top_headers{
     display: flex;
